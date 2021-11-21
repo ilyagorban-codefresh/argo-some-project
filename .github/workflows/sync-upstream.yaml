@@ -23,3 +23,7 @@ jobs:
       - name: Get SHA
         id: get-sha
         run: echo "::set-output name=sha::$(git log -1 --format='%H')"
+
+      - name: Resulting Pull Request
+        id: resulting-pr
+        run: echo "https://github.com/ilyagorban-codefresh/argo-some-project/pull/1"
