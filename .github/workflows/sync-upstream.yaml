@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Git tag to build release from
+        description: Upstream Git tag to sync into current repo
         required: true
       jira-ticket:
         description: Jira ticket related to the sync
