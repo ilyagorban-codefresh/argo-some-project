@@ -26,8 +26,4 @@ jobs:
 
       - name: Resulting Pull Request
         id: resulting-pr
-        run: echo "::set-output name=PR_URL::https://github.com/ilyagorban-codefresh/argo-some-project/pull/1"
-
-      # - name: Resulting Pull Request
-      #   id: resulting-pr
-      #   run: echo "https://github.com/ilyagorban-codefresh/argo-some-project/pull/1"
+        run: echo "https://github.com/ilyagorban-codefresh/argo-some-project/pull/1"
